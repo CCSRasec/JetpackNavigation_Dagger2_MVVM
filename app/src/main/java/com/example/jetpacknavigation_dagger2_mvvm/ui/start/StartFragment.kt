@@ -30,7 +30,7 @@ class StartFragment : Fragment() {
 
     override fun onAttach(context: Context) {
         super.onAttach(context)
-        if (context is OnButtonClicked){
+        if (context is OnButtonClicked) {
             listener = context
         }
     }
