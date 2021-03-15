@@ -19,5 +19,8 @@ class ProfileFragment : Fragment() {
     }
 
     companion object {
+        fun newInstance(): ProfileFragment{
+            return newInstance()
+        }
     }
 }
